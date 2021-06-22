@@ -1,0 +1,252 @@
+﻿
+*
+{
+    padding: 0;
+    margin-left: 0px;
+    margin-right: 0;
+    }
+body
+{
+    color: Black;
+    height: auto;
+    text-align: center;
+    font-family: Verdana;
+    /*background-color:#BAE0FF;*/
+     
+}
+.content
+{
+    width: 995px;
+    float: left;
+    height: auto; /*border-left:1px solid lightskyblue;    background:url('../Images/backgd.jpg') right top;*/
+    
+}
+.leftcontent
+{
+    width: 500px;
+    float: left;
+    height: auto;
+    
+}
+.rightcontent
+{
+    width: 430px;
+    float: right;
+    height: auto;
+    border:1px solid #82CCBE;
+    border-radius:25px;
+    margin:10px 0px 10px 0px ;
+    
+}
+.header
+{
+    height: auto; /*background: url('../Images/backgd.jpg') right top;*/
+    width: 995px;
+     border-bottom:1px solid black;
+}
+.footer
+{
+    height: auto;
+    float: left;
+    width: 995px; /*border:1px solid lightskyblue;     background: url('../Images/backgd.jpg') right top;*/
+    border-top:1px solid black;
+}
+
+.Button
+{
+    font-family: Verdana;
+    font-size: small;
+    font-weight: lighter;
+    color: White;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    text-align: center;
+    background-color: #64A3CF; /*background-image: url(../Images/btnpic.jpg);*/
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.Button:hover
+{
+    font-family: Verdana;
+    font-size: small;
+    font-weight: lighter;
+    color: #0066FF;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    background-color: Orange;
+    background-position: center center;
+}
+
+.Button:visited, .Button:active
+{
+    font-family: Verdana;
+    font-size: small;
+    font-weight: lighter;
+    color: White;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    background-color: #5757FF;
+    background-position: center center;
+}
+
+
+
+
+.ReportButton
+{
+    font-family: Verdana;
+    font-size: 12px;
+    color: White;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    text-align: center; /*background-image: url(../Images/btnpic.jpg);*/
+    background-color: #2580C6;
+    background-position: center center;
+}
+
+
+ReportButton:hover
+{
+    font-family: Verdana;
+    font-size: 12px;
+    color: White;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    text-align: center; /*background-image: url(../Images/btnpic.jpg);*/
+    background-color: Orange;
+    background-position: center center;
+}
+.ReportButton:visited, .ReportButton:active
+{
+    font-family: Verdana;
+    font-size: small;
+    font-weight: lighter;
+    color: White;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    background-color: #5757FF;
+    background-position: center center;
+}
+.MenuButton
+{
+    font-family: Verdana;
+    font-size: 12px;
+    font-weight:bold;
+    color: White;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    text-align: center; /*background-image: url(../Images/btnpic.jpg);*/
+    background-color: #64A3CF;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+.MenuButton:hover
+{
+    font-family: Verdana;
+    font-size: 12px;
+    color: White;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    text-align: center; /*background-image: url(../Images/btnpic.jpg);*/
+    background-color: Orange;
+    background-position: center center;
+}
+.MenuButton:visited, .ReportButton:active
+{
+    font-family: Verdana;
+    font-size: small;
+    font-weight: lighter;
+    color: White;
+    border-right: #808080 1px solid;
+    border-top: #808080 1px solid;
+    vertical-align: middle;
+    border-left: #808080 1px solid;
+    border-bottom: #808080 1px solid;
+    background-color: #5757FF;
+    background-position: center center;
+}
+#searchdetails
+{
+    border-bottom: 1px solid #82CCBE;
+    border-left:1px solid #82CCBE;
+    border-right:1px solid #82CCBE;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+#paymentdetails
+{
+   border-bottom: 1px solid #82CCBE;
+    border-left:1px solid #82CCBE;
+    border-right:1px solid #82CCBE;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#faqdetails
+{
+   border-bottom: 1px solid #82CCBE;
+    border-left:1px solid #82CCBE;
+    border-right:1px solid #82CCBE;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#homedetails
+{
+    border-bottom: 1px solid #82CCBE;
+    border-left:1px solid #82CCBE;
+    border-right:1px solid #82CCBE;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+#a1
+{
+    background-color: #D3D3D3;
+    height: 10px; /*box-shadow: 10px 10px 5px #888888;*/
+    border-radius: 25px;
+    color:White;
+    font-size:12px;
+     
+}
+
+.background
+{
+    
+    width: 566px;
+}
+.other
+{
+    border:1px solid #82CCBE;
+    border-radius:25px;
+    margin:10px 0px 10px 0px ;
+     
+}

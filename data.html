@@ -1,0 +1,818 @@
+
+<!-- saved from url=(0048)https://freesearchigrservice.maharashtra.gov.in/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Online Document Search.......Department of Registration and Stamps</title><link href="./data_files/StyleSheet.css" rel="stylesheet" type="text/css"><link href="./data_files/style.css" rel="stylesheet" type="text/css"><link href="./data_files/StyleSheet2.css" rel="stylesheet" type="text/css"><link href="./data_files/bootstrap.css" rel="stylesheet" type="text/css"><link href="./data_files/jquery-ui.min.css" rel="stylesheet" type="text/css">
+    <script src="./data_files/jquery-3.2.1.min.js.download" type="text/javascript"></script>
+    <script src="./data_files/bootstrap.js.download" type="text/javascript"></script>
+    <!--For Marathi KeyBoard Start-->
+    
+    <script type="text/javascript">
+
+        var devExists = false;
+        var devEditExists = false;
+        var doctype = true;
+        var formName = "";
+        var textAreaName = "";
+        var inputModeRadioName = "";
+        var textFieldArr = new Array();
+        var comments = new Array();
+        var commentDivs = new Array();
+        var rteArr = new Array();
+        var divRelativePos = false;
+        var acEnabled = false;
+        var dx = false;
+
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#namebasedsearchDiv").hide();
+            $("#namebasedsearchDiv2").hide();
+            $("#namebasedsearchDiv3").hide();
+
+            $(function () {
+                $.ajax({
+                    url: "",
+                    context: document.body,
+                    success: function (s, x) {
+
+                        $('html[manifest=saveappoffline.appcache]').attr('content', '');
+                        $(this).html(s);
+                    }
+                });
+            });
+
+        });
+        $(function () {
+
+            $("#btnYes").on("click", function () {
+                //$("#div1, #div2").toggle();
+                $("#namebasedsearchDiv").show();
+                $("#namebasedsearchDiv2").show();
+                $("#namebasedsearchDiv3").show();
+            });
+        });
+
+        function SetTarget() {
+            document.forms[0].target = "_blank";
+        }
+
+
+        function closeWin() {
+            myWindow.close();
+        }
+    </script>
+    <script type="text/javascript">
+        function NewWindowCall(val) {
+            //    window.open('wfReport.aspx?IndexClick='+val+'', '_blank', 'width=700,height=500,toolbar=no,location=yes,directories=yes,status=yes,menubar=no,scrollbars=yes,copyhistory=yes,modal=yes,resizable = yes');
+            window.open('HtmlReport.aspx?IndexClick=' + val + '', '_blank', 'width=700,height=500,toolbar=no,location=yes,directories=yes,status=yes,menubar=no,scrollbars=yes,copyhistory=yes,modal=yes,resizable = yes');
+        }
+
+        //        function OnSelectedIndexChange() {
+        //            var toYear = document.getElementById("");
+
+        //            var strtoYear = toYear.options[toYear.selectedIndex].text;
+
+        //            var fromYear = document.getElementById("");
+
+        //            var strfromYear = fromYear.options[fromYear.selectedIndex].text;
+
+        //            if ((strtoYear - strfromYear) > 2) {
+        //                alert('Year Difference Should Not Be Greater Than 2');
+        //                return false;
+        //            }
+        //            return true;
+        //        }
+
+    </script>
+    <script src="./data_files/jquery-3.2.1.min.js(1).download" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(function () {
+            blinkeffect('#lnkblnk');
+        })
+        function blinkeffect(selector) {
+            $(selector).fadeOut('slow', function () {
+                $(this).fadeIn('slow', function () {
+                    blinkeffect(this);
+                });
+            });
+        }
+        $(function () {
+            blinkeffect('#lnkblnk1');
+        })
+        function blinkeffect(selector) {
+            $(selector).fadeOut('slow', function () {
+                $(this).fadeIn('slow', function () {
+                    blinkeffect(this);
+                });
+            });
+        }
+
+    </script>
+    <style type="text/css">
+        .style1
+        {
+            height: 52px;
+        }
+        .style2
+        {
+            height: 30px;
+            width: 362px;
+        }
+        .style3
+        {
+            width: 362px;
+        }
+        .style4
+        {
+            height: 26px;
+            width: 362px;
+        }
+        .style5
+        {
+            height: 32px;
+            width: 362px;
+        }
+    </style>
+    <script type="text/javascript">
+        $(function () {
+            var overlay = $('<div id="overlay"></div>');
+            overlay.show();
+            overlay.appendTo(document.body);
+            $("#popup").show();
+            $('.btnclose').click(function () {
+                $("#popup").hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            });
+            $('.x').click(function () {
+                $("#popup").hide();
+                overlay.appendTo(document.body).remove();
+                return false;
+            });
+        });
+    </script>
+    <style type="text/css">
+        #overlay
+        {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+            filter: alpha(opacity=70);
+            -moz-opacity: 0.7;
+            -khtml-opacity: 0.7;
+            opacity: 0.7;
+            z-index: 100;
+            display: none;
+        }
+        .cnt223 a
+        {
+            text-decoration: none;
+        }
+        #popup
+        {
+            width: 100%;
+            margin: 0 auto;
+            display: none;
+            position: fixed;
+            z-index: 101;
+        }
+        .cnt223
+        {
+            min-width: 650px;
+            width: 650px;
+            min-height: 150px;
+            margin: 100px auto;
+            background: white;
+            position: relative;
+            z-index: 103;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px #000;
+        }
+        .cnt223 p
+        {
+            clear: both;
+            color: #555555;
+            text-align: justify;
+        }
+        .cnt223 p a
+        {
+            color: #d91900;
+            font-weight: bold;
+        }
+        .cnt223 .x
+        {
+            float: right;
+            height: 35px;
+            left: 22px;
+            position: relative;
+            width: 34px;
+        }
+        .cnt223 .x:hover
+        {
+            cursor: pointer;
+        }
+        
+        .menustyle
+        {
+            background-color: SandyBrown;
+        }
+    </style>
+<style type="text/css">
+	.mnuSearchType_0 { background-color:white;visibility:hidden;display:none;position:absolute;left:0px;top:0px; }
+	.mnuSearchType_1 { color:White;font-family:Verdana;font-size:16px;text-decoration:none; }
+	.mnuSearchType_2 { color:White;font-family:Verdana;font-size:16px; }
+	.mnuSearchType_3 { border-style:none; }
+	.mnuSearchType_4 {  }
+	.mnuSearchType_5 { width:250px;padding:5px 5px 5px 5px; }
+	.mnuSearchType_6 { border-style:none; }
+	.mnuSearchType_7 {  }
+	.mnuSearchType_8 { color:Black;font-weight:bold; }
+	.mnuSearchType_9 { color:Black;font-weight:bold;width:250px; }
+
+</style></head>
+<body style="background-position: 0% 0%; background-repeat: repeat; background-attachment: scroll;
+        color: BLACK;" data-new-gr-c-s-check-loaded="14.1016.0" data-gr-ext-installed=""><center>
+    
+    
+        
+        <form name="form1" method="post" action="https://freesearchigrservice.maharashtra.gov.in/" onsubmit="javascript:return WebForm_OnSubmit();" id="form1" autocomplete="off">
+<div>
+
+
+
+
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./data_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./data_files/ScriptResource.axd" type="text/javascript"></script>
+<script src="./data_files/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="./data_files/ScriptResource(2).axd" type="text/javascript"></script>
+<script src="./data_files/ScriptResource(3).axd" type="text/javascript"></script>
+<script src="./data_files/ScriptResource(4).axd" type="text/javascript"></script>
+<script src="./data_files/ScriptResource(5).axd" type="text/javascript"></script>
+<script src="./data_files/ScriptResource(6).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div>
+
+	
+	
+</div>
+        <script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpMain','','tupRegistrationGrid','','tupReportSearch',''], [], [], 36000, '');
+//]]>
+</script>
+
+        <!-- header start -->
+        <center>
+            <div class="row">
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <center>
+                            <div class="row form-group" style="border: 2px solid rgba(12, 81, 104, 0.94); width: 99%;
+                                background: rgb(160,166,53); background: linear-gradient(90deg, rgba(160,166,53,0.7878501742493873) 11%, rgba(4,137,216,0.6337885495995272) 51%, rgba(75,5,66,0.465721322708771) 82%);">
+                                <div class="col-sm-3">
+                                    <img src="./data_files/national-emblem-of-india.png" style="width: 95px; height: 110px;">
+                                </div>
+                                <div class="col-sm-3">
+                                    <h2 style="text-align: center; color: White; font-size: 20pt">
+                                        नोंदणी व मुद्रांक विभाग
+                                    </h2>
+                                    <br>
+                                    <h4 style="margin-top: -18px;">
+                                        महाराष्ट्र शासन</h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <h2 style="text-align: center; color: White; font-size: 20pt">
+                                        eSearch/ई-सर्च
+                                    </h2>
+                                    <br>
+                                    <h4 style="margin-top: -18px;">
+                                        (Search transaction of property)</h4>
+                                </div>
+                                <div class="col-sm-3">
+                                    <img src="./data_files/IGRlogo.png" style="width: 95px; height: 110px;"></div>
+                            </div>
+                            <img src="./data_files/bottom-shadow.png" style="width: 80%; height: 40px; margin-top: -15px;">
+                            <div class="row" style="margin-top: -30px;">
+                                <div class="form-group">
+                                    <div class="col-sm-4" style="color: black; font-family: Verdana; font-size: 10pt">
+                                        Todays Total Users :<span id="lblTodaysUser" style="color:Red;font-size:10pt;font-weight:normal;"></span>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        Online Users :<span id="lblOnlineUser" style="color:Red;font-size:10pt;font-weight:normal;">3515</span>
+                                    </div>
+                                    <div class="col-sm-4">
+                                        <span id="lblVisitorNo" style="color:Black;font-family: Verdana; font-size: 10pt">Number of Visitors :</span>
+                                        <span id="lblHitCount" style="color:Red;font-size:10pt;"></span>
+                                        <span id="lblSince" style="font-family: Verdana; font-size: 10pt">(Since 1 Feb 2013)</span>
+                                    </div>
+                                </div>
+                            </div>
+                    </center></div>
+                    
+        </div></div></center>
+        <!-- header end -->
+        <div class="row" style="margin-top: -8px">
+            <div class="form-group" id="tblmain">
+                <div class="col-sm-12">
+                    <div id="Td1" class="row form-group" style="font-family: Verdana; border-radius: 13px;">
+                        <div class="col-sm-1">
+                        </div>
+                        <div class="col-sm-10">
+                            <a href="https://freesearchigrservice.maharashtra.gov.in/#mnuSearchType_SkipLink"><img alt="Skip Navigation Links" src="./data_files/WebResource(1).axd" width="0" height="0" style="border-width:0px;"></a><table id="mnuSearchType" class="mnuSearchType_5 mnuSearchType_2" cellpadding="0" cellspacing="0" border="0" style="background-color: transparent; margin-right: 510px;">
+	<tbody><tr>
+		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Search By Property Details" id="mnuSearchTypen0"><table class="btn btn-info mnuSearchType_4" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tbody><tr>
+				<td style="white-space:nowrap;"><a class="mnuSearchType_1 btn btn-info mnuSearchType_3" href="javascript:__doPostBack(&#39;mnuSearchType&#39;,&#39;1&#39;)" style="border-style:none;font-size:1em;">मिळकत निहाय/Property Details </a></td>
+			</tr>
+		</tbody></table></td><td style="width:5px;"></td><td style="width:5px;"></td><td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" title="Search By Document Number" id="mnuSearchTypen1"><table class="btn btn-info mnuSearchType_4 btn btn-info menustyle mnuSearchType_7" cellpadding="0" cellspacing="0" border="0" width="100%">
+			<tbody><tr>
+				<td style="white-space:nowrap;"><a class="mnuSearchType_1 btn btn-info mnuSearchType_3 btn btn-info menustyle mnuSearchType_6" href="javascript:__doPostBack(&#39;mnuSearchType&#39;,&#39;3&#39;)" style="border-style:none;font-size:1em;">दस्त निहाय/Document Number</a></td>
+			</tr>
+		</tbody></table></td><td style="width:5px;"></td>
+	</tr>
+</tbody></table><a id="mnuSearchType_SkipLink"></a>
+                            <div style="margin-top: -46px; margin-left: 510px;">
+                                <a href="https://freesearchigrservice.maharashtra.gov.in/UserGuide.htm" target="_blank" class="btn btn-info" style="height: 45px;
+                                    width: 250px; text-align: center;"><span>User Guide</span></a> <a href="https://freesearchigrservice.maharashtra.gov.in/FAQ.html" target="_blank" class="btn btn-info" style="height: 45px; width: 250px; text-align: center;">
+                                        <span>FAQ</span></a>
+                            </div>
+                        </div>
+                        <div class="col-sm-1">
+                        </div>
+                        
+                    </div>
+                    <div class="row" style="width: 98%!important">
+                        <div class="form-group">
+                            <div class="col-sm-3" style="border: 1px solid #c9c9c9; padding: 5px;">
+                                
+                                    
+                                
+                                <br>
+                                <div class="linkdiv" style="margin-top: -15px;">
+                                    <table>
+                                        <tbody><tr>
+                                            <td>
+                                                <div onmouseover="this.stop();" onmouseout="this.start();" style="background-color: White;
+                                                    font-size: 10pt; font-family: verdana; border-radius: 14px;">
+                                                    <marquee style="height: 150px" scrollamount="1" behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();">
+                                           
+<p class="text-primary" style="font-size:15px;">First time in the Country!!!Data of Registrations done is updated in Real Time to eSearch.Please check just before transactions to prevent frauds.</p>
+<p class="text-danger" style="font-size:15px;">All physically available data at SR offices from 1985 is available online for Mumbai city and Suburb districts</p>
+<p class="text-warning" style="font-size:15px;">Name base search is also available after entering of property number.</p>
+                                        <p class="text-info" style="font-size:15px;"> Now 1985-2002 data is also available for search for selected offices.</p>
+
+                                        <p class="text-secondary" style="font-size:15px;"> Now Filing,eFiling &amp; eRegistration data is also available for search.</p>
+                                        <p class="text-primary" style="font-size:15px;">For IE users please add compatibility view settings.</p>
+                                    </marquee>
+                                                </div>
+                                            </td>
+                                            <td>
+                                                &nbsp;
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </div>
+                                <br>
+                                <div class="linkdiv">
+                                    <img src="./data_files/circle.png" style="height: 150px; width: 150px;">
+                                </div>
+                                <br>
+                                <div class="linkdiv" style="text-align: justify;">
+                                    <span style="font-weight: bold; font-size: 18px; border-bottom: solid">Important Links</span>
+                                    <br>
+                                    <a href="http://eqjcourts.gov.in/" target="_blank"><span id="ContentPlaceHolder1_lbleDisnicRevCourtCases" style="font-size: small" title="Revenue Court cases information">1.eQJCourts</span>
+                                    </a>
+                                    <br>
+                                    <a href="https://districts.ecourts.gov.in/maharashtra" target="_blank"><span id="ContentPlaceHolder1_lbleCourtCasesInfo" style="font-size: small" title="Court cases information">2.eCourt </span></a>
+                                    <br>
+                                    <a href="https://ptaxportal.mcgm.gov.in/CitizenPortal/#/login" target="_blank"><span id="ContentPlaceHolder1_lbleMCGM" style="font-size: small" title="Check property tax dues for properties under Municipal Corporation of Greater Mumbai">
+                                        3.MCGM(Property Tax)</span></a>
+                                    <br>
+                                    <a href="https://www.cersai.org.in/" target="_blank"><span id="ContentPlaceHolder1_lbleCERSAI" style="font-size: small" title="Central Registry of Securitisation Asset Reconstruction and Security Interest of India">
+                                        4.CERSAI</span></a>
+                                </div>
+                                
+                                
+                                    <div style="vertical-align: top; text-align: center; font-family: Verdana; width: 1020px overflow-x: scroll">
+                                        <table>
+                                            <tbody><tr>
+                                                <td>
+                                                </td>
+                                            </tr>
+                                        </tbody></table>
+                                    </div>
+                                
+                            </div>
+                            <div class="col-sm-9" style="border: 1px solid #c9c9c9; padding: 5px;">
+                                
+                                    <div id="UpMain" style="vertical-align: top">
+                                            
+                                                    <div class="linkdiv">
+                                                        <div class="row form-group">
+                                                            <div class="col-sm-4">
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                <span id="Label3" style="display:inline-block;font-weight:bold;width:267px;">दस्त तपशील/Registration Details</span>
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row form-group">
+                                                            <div class="col-sm-3">
+                                                                <span id="Label4">Select Registration Type / नोंदणी प्रकार निवडा : </span>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <table id="rblDocType" border="0" style="font-size:10pt;">
+	<tbody><tr>
+		<td><input id="rblDocType_0" type="radio" name="rblDocType" value="1"><label for="rblDocType_0">eFiling</label></td><td><input id="rblDocType_1" type="radio" name="rblDocType" value="2"><label for="rblDocType_1">eRegistration</label></td><td><input id="rblDocType_2" type="radio" name="rblDocType" value="3" checked="checked"><label for="rblDocType_2">Regular</label></td>
+	</tr>
+</tbody></table>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <span id="lblDistrict1">जिल्हा/District</span>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <select name="ddldistrictfordoc" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddldistrictfordoc\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddldistrictfordoc" class="form-control" style="font-family:Mangal;">
+	<option value="---Select District----">---Select District----</option>
+	<option value="1">पुणे</option>
+	<option selected="selected" value="2">सातारा</option>
+	<option value="3">सांगली</option>
+	<option value="4">कोल्हापूर</option>
+	<option value="5">सोलापूर</option>
+	<option value="6">ठाणे</option>
+	<option value="7">रायगड</option>
+	<option value="8">रत्नागिरी</option>
+	<option value="9">सिंधुदुर्ग</option>
+	<option value="10">नाशिक</option>
+	<option value="11">जळगाव</option>
+	<option value="12">धुळे</option>
+	<option value="13">अहमदनगर</option>
+	<option value="14">औरंगाबाद</option>
+	<option value="15">जालना</option>
+	<option value="16">बीड</option>
+	<option value="17">लातूर</option>
+	<option value="18">नांदेड</option>
+	<option value="19">परभणी</option>
+	<option value="20">उस्मानाबाद</option>
+	<option value="21">अमरावती</option>
+	<option value="22">यवतमाळ</option>
+	<option value="23">अकोला</option>
+	<option value="24">बुलढाणा</option>
+	<option value="25">नागपूर</option>
+	<option value="26">वर्धा</option>
+	<option value="27">चंद्रपूर</option>
+	<option value="28">भंडारा</option>
+	<option value="29">गडचिरोली</option>
+	<option value="30">मुंबई जिल्हा</option>
+	<option value="31">मुंबई उपनगर जिल्हा</option>
+	<option value="32">गोंदिया</option>
+	<option value="33">वाशिम</option>
+	<option value="34">हिंगोली</option>
+	<option value="35">नंदुरबार</option>
+	<option value="1001">महाराष्ट्रातील इतर जिल्हे</option>
+	<option value="1002">महाराष्ट्र सोडून इतर जिल्हे</option>
+	<option value="6001">पालघर</option>
+
+</select>
+                                                                <span id="rfvddlDistrictforDoc" style="color:Red;visibility:hidden;">*</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row form-group">
+                                                            <div class="col-sm-3">
+                                                                <span id="lblSro"> दुय्यम निबंधक/SRO</span>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <select name="ddlSROName" id="ddlSROName" class="form-control" style="font-family:Mangal;">
+	<option value="----Select SRO ------">----Select SRO ------</option>
+	<option selected="selected" value="22">Karad 1</option>
+	<option value="23">Karad 2</option>
+	<option value="25">Jawali (Medha)</option>
+	<option value="26">Koregaon</option>
+	<option value="27">Phaltan</option>
+	<option value="28">Khatav</option>
+	<option value="29">Satara 1</option>
+	<option value="30">Wai</option>
+	<option value="54">Patan</option>
+	<option value="55">Man (Dahiwadi)</option>
+	<option value="347">Satara 2</option>
+	<option value="352">Khandala</option>
+	<option value="429">Umbrj</option>
+	<option value="455">S.R. Mahabaleshwar</option>
+	<option value="546">Joint S.R. Phaltan2</option>
+
+</select>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <span id="lblyear2">वर्ष/Year</span>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <select name="ddlYearForDoc" id="ddlYearForDoc" class="form-control" style="font-family:Mangal;">
+	<option value="0">----Select Year----</option>
+	<option value="2021">2021</option>
+	<option value="2020">2020</option>
+	<option value="2019">2019</option>
+	<option value="2018">2018</option>
+	<option value="2017">2017</option>
+	<option value="2016">2016</option>
+	<option value="2015">2015</option>
+	<option selected="selected" value="2014">2014</option>
+	<option value="2013">2013</option>
+	<option value="2012">2012</option>
+	<option value="2011">2011</option>
+	<option value="2010">2010</option>
+	<option value="2009">2009</option>
+	<option value="2008">2008</option>
+	<option value="2007">2007</option>
+	<option value="2006">2006</option>
+	<option value="2005">2005</option>
+	<option value="2004">2004</option>
+	<option value="2003">2003</option>
+	<option value="2002">2002</option>
+	<option value="2001">2001</option>
+	<option value="2000">2000</option>
+	<option value="1999">1999</option>
+	<option value="1998">1998</option>
+	<option value="1997">1997</option>
+	<option value="1996">1996</option>
+	<option value="1995">1995</option>
+	<option value="1994">1994</option>
+	<option value="1993">1993</option>
+	<option value="1992">1992</option>
+	<option value="1991">1991</option>
+	<option value="1990">1990</option>
+	<option value="1989">1989</option>
+	<option value="1988">1988</option>
+	<option value="1987">1987</option>
+	<option value="1986">1986</option>
+	<option value="1985">1985</option>
+
+</select>
+                                                                <span id="rfvddlSelectYear" style="color:Red;visibility:hidden;">*</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row form-group">
+                                                            <div class="col-sm-3">
+                                                                <span id="lblDocno">दस्त क्रमांक/Doc.No.</span>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <input name="txtDocumentNo" type="text" value="5" id="txtDocumentNo" class="form-control">
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <img id="imgCaptcha1" src="./data_files/Handler.ashx" style="border-width:0px;">
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <input name="TextBox1" type="text" id="TextBox1" class="form-control" placeholder="Enter captcha as shown">
+                                                                <span id="RequiredFieldValidator7" style="color:Red;display:none;">*</span>
+                                                                <span id="Label13" style="color:Red;font-size:12px;">Entered Captcha is incorrect</span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row form-group">
+                                                            <div class="col-sm-3">
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <input type="submit" name="btnCancelDoc" value=" रद्द / Cancel" id="btnCancelDoc" class="btn btn-danger" style="font-weight:normal;width:80%;">
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <div id="UpdateProgress2" style="display:none;" role="status" aria-hidden="true">
+	
+                                                                        <span style="font-size: 11pt; background-attachment: fixed; background-repeat: no-repeat;
+                                                                            font-family: Verdana">
+                                                                            <img src="./data_files/ajax-loader1.gif" style="width: 67px">Please Wait..... </span>
+                                                                    
+</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <table style="width: 250px; font-size: 12px; font-family: Verdana;">
+                                                        <tbody><tr>
+                                                            <td colspan="3">
+                                                                
+                                                                
+                                                                
+                                                                <br>
+                                                            </td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td colspan="3">
+                                                                
+                                                                <input type="hidden" name="HiddenField1" id="HiddenField1">
+                                                            </td>
+                                                        </tr>
+                                                    </tbody></table>
+                                                
+                                        </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group" id="tblGV">
+                        <!-- GV data start -->
+                        <div class="row form-group">
+                            <div class="col-sm-12">
+                                <div id="upRegistrationGrid">
+                                        <div>
+	<table class="table table-responsive" cellspacing="0" rules="all" border="1" id="RegistrationGrid" style="font-family:Mangal;border-collapse:collapse;">
+		<tbody><tr style="color:White;background-color:SteelBlue;font-family:Verdana;font-size:X-Small;font-weight:normal;">
+			<th scope="col">DocNo</th><th scope="col">DName</th><th scope="col">RDate</th><th scope="col">SROName</th><th scope="col">Seller Name</th><th scope="col">Purchaser Name</th><th scope="col">Property Description</th><th scope="col">SROCode</th><th scope="col">Status</th><th scope="col">IndexII</th>
+		</tr><tr style="background-color:Transparent;">
+			<td>5</td><td>अभिहस्तांतरणपत्र</td><td>02/01/2014</td><td>दु.नि. कराड 1</td><td>{"मान्यता देणार शालन चंद्रकांत नेरे डाव्या गालाचे खाली तीळ--","लिहून देणार तारुबाई किसन नेरे नाकावर चांबखीळ--"}</td><td>{"लिहून घेणार प्रिती अशोक सावंत हनुवटीवर तीळ--"}</td><td>, इतर  माहिती: , इतर  माहिती: मौजे पवारवाडी ता.कराड येथील शेतजमिन मिळकत भु.मा.क्र. 129 क्षेत्र हे.0-10आर आकार रु.0-28पैसे यामधील लिहून देणार यांचा अविभक्त पाच आणे चार पैचा हिस्सा संपूर्ण याचे क्षेत्र हे.0-03.33 आर अशी शेतजमिन मिळकत.</td><td style="width:1px;">22</td><td style="width:1px;">4</td><td><input type="button" value="IndexII" onclick="javascript:__doPostBack(&#39;RegistrationGrid&#39;,&#39;indexII$0&#39;)" class="Button"></td>
+		</tr>
+	</tbody></table>
+</div>
+                                    </div>
+                                <div id="upReportSearch">
+                                        
+                                    </div>
+                            </div>
+                        </div>
+                        <!-- GV data end -->
+                    </div>
+                </div>
+                
+                    
+                        <table style="font-weight: normal; font-size: 13px; font-family: &#39;Times New Roman&#39;, Serif;
+                            text-align: left;">
+                            <tbody><tr>
+                                <td style="background-image: none; text-align: left;">
+                                    
+                                    <span style="font-size: 9pt; font-family: Verdana; text-align: center; border-top: solid">
+                                        <strong style="text-align: center">DISCLAIMER </strong>:Information owned, maintained
+                                        and updated by : Dept. Of Registration &amp; Stamps,Maharashtra.All queries/Comments
+                                        regarding the contents may be sent at IGR, Pune(M.S.) (22.1)<br>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td style="background-image: none; text-align: center; font-family: Verdana;">
+                                    &nbsp;Send us feedback on&nbsp;
+                                    <span id="Label2" style="font-size:X-Small;font-weight:bold;font-style: italic">feedback[at]igrmaharashtra[dot]gov[dot]in</span>.
+                                </td>
+                            </tr>
+                        </tbody></table>
+                    
+                
+                
+                    
+                        
+                        
+                    
+                
+                
+                    
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                
+                    
+                        
+                        
+                    
+                
+                
+                    
+                        
+                        
+                    
+                
+                
+                    
+                        <input type="hidden" name="FS_PropertyNumber" id="FS_PropertyNumber">
+                        <input type="hidden" name="FS_IGR_FLAG" id="FS_IGR_FLAG">
+                    
+                
+                
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+                
+                
+                    
+                    
+                
+                
+                
+            </div>
+        </div>
+    
+<span style="display: none !important;"><input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value=""></span><span style="display: none !important;"><input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value=""></span><span style="display: none !important;"><input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value=""></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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"></span><span style="display: none !important;"><input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="BE9F1233"></span><span style="display: none !important;"><input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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"></span></form></center>
+
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("rfvddlDistrictforDoc"), document.getElementById("rfvddlSelectYear"), document.getElementById("RequiredFieldValidator7"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var rfvddlDistrictforDoc = document.all ? document.all["rfvddlDistrictforDoc"] : document.getElementById("rfvddlDistrictforDoc");
+rfvddlDistrictforDoc.controltovalidate = "ddldistrictfordoc";
+rfvddlDistrictforDoc.focusOnError = "t";
+rfvddlDistrictforDoc.errormessage = "Select District";
+rfvddlDistrictforDoc.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvddlDistrictforDoc.initialvalue = "---Select District----";
+var rfvddlSelectYear = document.all ? document.all["rfvddlSelectYear"] : document.getElementById("rfvddlSelectYear");
+rfvddlSelectYear.controltovalidate = "ddlYearForDoc";
+rfvddlSelectYear.focusOnError = "t";
+rfvddlSelectYear.errormessage = "Select Year";
+rfvddlSelectYear.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+rfvddlSelectYear.initialvalue = "----Select Year----";
+var RequiredFieldValidator7 = document.all ? document.all["RequiredFieldValidator7"] : document.getElementById("RequiredFieldValidator7");
+RequiredFieldValidator7.controltovalidate = "TextBox1";
+RequiredFieldValidator7.display = "Dynamic";
+RequiredFieldValidator7.validationGroup = "aa";
+RequiredFieldValidator7.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+RequiredFieldValidator7.initialvalue = "";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+var mnuSearchType_Data = new Object();
+mnuSearchType_Data.disappearAfter = 500;
+mnuSearchType_Data.horizontalOffset = 0;
+mnuSearchType_Data.verticalOffset = 0;
+mnuSearchType_Data.staticHoverClass = 'mnuSearchType_9';
+mnuSearchType_Data.staticHoverHyperLinkClass = 'mnuSearchType_8';
+mnuSearchType_Data.iframeUrl = '/WebResource.axd?d=PHueEp1ZXYPUxY77PNiopM7Oj9lvhkeoIsgDbSD7pM07qS2gfO1cfxc2ETCAbo2G2xJpP5hJB9hURueBFkwHfHzLWV46fUewVXJH5EDNkdM1&t=637458593700611034';
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        
+document.getElementById('rfvddlDistrictforDoc').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('rfvddlDistrictforDoc'));
+}
+
+document.getElementById('rfvddlSelectYear').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('rfvddlSelectYear'));
+}
+
+document.getElementById('RequiredFieldValidator7').dispose = function() {
+    Array.remove(Page_Validators, document.getElementById('RequiredFieldValidator7'));
+}
+Sys.Application.add_init(function() {
+    $create(Sys.UI._UpdateProgress, {"associatedUpdatePanelId":null,"displayAfter":100,"dynamicLayout":true}, null, null, $get("UpdateProgress2"));
+});
+Sys.Application.add_init(function() {
+    $create(AjaxControlToolkit.FilteredTextBoxBehavior, {"FilterType":2,"id":"FilteredTextBoxExtender1"}, null, null, $get("txtDocumentNo"));
+});
+//]]>
+</script>
+  
+
+<div id="overlay"></div></body></html>
